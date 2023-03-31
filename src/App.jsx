@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import About from './views/About'
 import Ecosystem from './views/Ecosystem'
 import Hero from './views/Hero'
+import Tokenomics from './views/Tokenomics'
 
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
       <Nav />
       <Hero />
       <About />
-      <Ecosystem/>
+      <Ecosystem />
+      <Tokenomics />
     </div>
   )
 }

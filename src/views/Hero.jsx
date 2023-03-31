@@ -70,7 +70,7 @@ const Hero = () => {
                     <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/ethside.webp" alt="Eth" className="absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
                     <div className="relative z-10">
                         <TextAnim>
-                            <h1 className='font-inter 2xl:text-8xl md:text-6xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit 2xl:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-[#70BCA8] inline-block text-transparent bg-clip-text'>EARN</span> PROTOCOL</h1>
+                            <h1 className='font-inter 2xl:text-8xl md:text-6xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit 2xl:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text'>EARN</span> PROTOCOL</h1>
                         </TextAnim>
 
                         <TextAnim>

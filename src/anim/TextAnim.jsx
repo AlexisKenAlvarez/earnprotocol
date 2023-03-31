@@ -2,9 +2,10 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
+
 const TextAnim = (props) => {
 
-    const [ref, view] = useInView({ triggerOnce: true, threshold: 0.5 })
+    const [ref, view] = useInView({ triggerOnce: false, threshold: 0.5, rootMargin: `${window.innerHeight}px 0px  0px 0px` })
 
     return (
         <div ref={ref} className="overflow-hidden">

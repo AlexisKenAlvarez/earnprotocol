@@ -14,7 +14,8 @@ export default {
         purple: '#6C3FBA',
         aqua: '#6FB0AA',
         blk: '#020100',
-        desc: '#DCDCDC'
+        desc: '#DCDCDC',
+        cyan: '#01CCF9'
       }
     },
   },

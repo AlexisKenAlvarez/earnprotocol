@@ -78,7 +78,7 @@ const Nav = () => {
                                         <li className='transition-width ease-in-out duration-300 group-hover:text-pongkan'>
                                             {items.label}
                                         </li>
-                                        <div className="group-hover:w-[70%] mx-auto h-[3px] bg-gradient-to-br from-purple to-aqua mt-2 w-0 transition-width ease-in-out duration-300 opacity-0 group-hover:opacity-100"></div>
+                                        <div className="group-hover:w-[70%] mx-auto h-[3px] bg-cyan mt-2 w-0 transition-width ease-in-out duration-300 opacity-0 group-hover:opacity-100"></div>
                                     </motion.div>
                                     : null
                             )
