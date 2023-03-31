@@ -4,6 +4,7 @@ import Box from '../components/Box'
 import Button from '../components/Button'
 import { motion } from 'framer-motion'
 import TextAnim from '../anim/TextAnim'
+import AnimOnce from '../anim/AnimOnce'
 
 const Hero = () => {
 
@@ -59,31 +60,31 @@ const Hero = () => {
 
 
     return (
-        <section className="w-full h-screen bg-blk flex items-center py-20 px-16 overflow-hidden relative">
+        <section className="w-full h-screen bg-blk flex items-center py-20 px-16 overflow-hidden relative" id="/">
 
-            <motion.div initial={{scale: 1}} animate={{scale: 1.3}} transition={{duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear"}}  className="w-[18rem] h-[18rem] bg-purple rounded-full absolute right-[30rem] top-32 blur-[120px]"></motion.div>
-            <motion.div initial={{scale: 1}} animate={{scale: 1.3}} transition={{delay: 1, duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear"}} className="w-[18rem] h-[18rem] bg-aqua rounded-full absolute right-[8rem] top-[24rem]  blur-[120px]"></motion.div>
+            <motion.div initial={{ scale: 1 }} animate={{ scale: 1.3 }} transition={{ duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear" }} className="w-[18rem] h-[18rem] bg-purple rounded-full absolute right-[30rem] top-32 blur-[120px]"></motion.div>
+            <motion.div initial={{ scale: 1 }} animate={{ scale: 1.3 }} transition={{ delay: 1, duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear" }} className="w-[18rem] h-[18rem] bg-aqua rounded-full absolute right-[8rem] top-[24rem]  blur-[120px]"></motion.div>
 
 
             <div className="w-fit mx-auto flex items-center gap-x-[8rem] h-auto ">
                 <div className="w-full relative text-center lg:text-left">
                     <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/ethside.webp" alt="Eth" className="absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
                     <div className="relative z-10">
-                        <TextAnim>
+                        <AnimOnce>
                             <h1 className='font-inter 2xl:text-8xl md:text-6xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit 2xl:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text'>EARN</span> PROTOCOL</h1>
-                        </TextAnim>
+                        </AnimOnce>
 
-                        <TextAnim>
+                        <AnimOnce>
                             <p className='opacity-70 max-w-[40rem]'>Earn Protocol is a platform designed to make it easy for users to participate in yield farming, staking, and liquidity pooling. With our innovative platform, you can easily maximize your returns from the cryptoeconomy.</p>
-                        </TextAnim>
+                        </AnimOnce>
 
-                        <TextAnim>
+                        <AnimOnce>
                             <a href="" className="">
                                 <Button className="mt-8">
                                     Buy token
                                 </Button>
                             </a>
-                        </TextAnim>
+                        </AnimOnce>
 
                     </div>
 

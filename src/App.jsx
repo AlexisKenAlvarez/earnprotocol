@@ -12,12 +12,15 @@ const App = () => {
   return (
     <div className='text-white font-poppins bg-blk overflow-hidden'>
       <Nav />
+
       <Hero />
       <About />
       <Ecosystem />
       <Tokenomics />
       <Roadmap />
       <Footer />
+
+
     </div>
   )
 }

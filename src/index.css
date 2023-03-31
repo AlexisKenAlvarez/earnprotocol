@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html {
+    scroll-behavior: smooth;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 8px;

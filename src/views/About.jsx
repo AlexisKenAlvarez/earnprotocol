@@ -9,7 +9,7 @@ const About = () => {
     return (
 
         <>
-            <section className="w-full h-auto bg-blk py-20 flex justify-center relative md:px-20 px-12 flex-col gap-y-20 z-10">
+            <section className="w-full h-auto bg-blk py-20 flex justify-center relative md:px-20 px-12 flex-col gap-y-20 z-10" id="about">
 
                 <motion.div initial={{ scale: 1 }} animate={{ scale: 1.3 }} transition={{ duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear" }} className="md:w-[18rem] md:h-[18rem] w-[12rem] h-[12rem] bg-purple rounded-full absolute 2xl:left-[35rem] lg:left-[30rem] md:right-10 right-5 top-[27rem] blur-[120px]"></motion.div>
 

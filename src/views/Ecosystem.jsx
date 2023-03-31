@@ -40,7 +40,7 @@ const Ecosystem = () => {
     }
 
     return (
-        <section className="w-full min-h-screen h-auto bg-blk relative mt-10 overflow-hidden">
+        <section className="w-full min-h-screen h-auto bg-blk relative mt-10 overflow-hidden" id="ecosystem">
             <div className="w-full h-full flex transition-all ease-in-out duration-1000" style={{ transform: `translateX(-${trans[translateAmount]})` }}>
                 <div className="min-w-full h-full px-8 pb-20">
                     <img src="/bg.webp" alt="bg" className="absolute w-full h-full object-cover left-0 top-0" />

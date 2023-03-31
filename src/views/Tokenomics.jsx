@@ -18,7 +18,7 @@ const Tokenomics = () => {
 
     return (
 
-        <section className='h-auto w-full bg-blk  flex items-center flex-col justify-center py-20 relative'>
+        <section className='h-auto w-full bg-blk  flex items-center flex-col justify-center py-20 relative' id='tokenomics'>
             
             <motion.div initial={{ scale: 1 }} animate={{ scale: 1.3 }} transition={{ duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear" }} className="md:w-[18rem] md:h-[18rem] w-[12rem] h-[12rem] bg-purple/70 rounded-full absolute 2xl:left-[35rem] lg:left-[30rem] md:right-10 right-5 top-[27rem] blur-[120px]"></motion.div>
 
