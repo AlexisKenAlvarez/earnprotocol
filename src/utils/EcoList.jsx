@@ -2,6 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
+import SkewDelay from "../anim/Delay/SkewDelay";
 
 const settings = {
     dots: true,
@@ -31,7 +32,11 @@ export const EcoList = [
                 <div className="w-full flex flex-col gap-y-7 max-w-[50rem] 2xl:max-w-[55rem] text-sm 2xl:text-base text-desc">
                     <div className="">
                         <div className="relative skew-x-6">
-                            <h1 className='text-5xl font-[800] relative z-10'>LIQUIDITY POOL</h1>
+                            <SkewDelay>
+
+                                <h1 className='text-5xl font-[800] relative z-10'>LIQUIDITY POOL</h1>
+                            </SkewDelay>
+
                             <h1 className='text-5xl font-[800] absolute top-4 lg:left-4 opacity-20 stroke left-0 right-0 mx-auto lg:mx-0'>LIQUIDITY POOL</h1>
                         </div>
                     </div>
@@ -72,7 +77,9 @@ export const EcoList = [
                 <div className="w-full flex flex-col gap-y-7 max-w-[50rem] 2xl:max-w-[55rem] text-base text-desc">
                     <div className="">
                         <div className="relative skew-x-6">
-                            <h1 className='text-5xl font-[800] relative z-10'>STAKING</h1>
+                            <SkewDelay>
+                                <h1 className='text-5xl font-[800] relative z-10'>STAKING</h1>
+                            </SkewDelay>
                             <h1 className='text-5xl font-[800] absolute top-4 lg:left-4 opacity-20 stroke left-0 right-0 mx-auto lg:mx-0'>STAKING</h1>
                         </div>
                     </div>
@@ -101,7 +108,10 @@ export const EcoList = [
                 <div className="w-full flex flex-col gap-y-7 max-w-[50rem] 2xl:max-w-[55rem] text-base text-desc">
                     <div className="">
                         <div className="relative skew-x-6">
-                            <h1 className='text-5xl font-[800] relative z-10'>FARMING</h1>
+                            <SkewDelay>
+                                <h1 className='text-5xl font-[800] relative z-10'>FARMING</h1>
+
+                            </SkewDelay>
                             <h1 className='text-5xl font-[800] absolute top-4 lg:left-4 opacity-20 stroke left-0 right-0 mx-auto lg:mx-0'>FARMING</h1>
                         </div>
                     </div>
@@ -125,7 +135,9 @@ export const EcoList = [
                     <div className="w-full flex flex-col gap-y-7 max-w-[50rem] 2xl:max-w-[55rem] text-sm 2xl:text-base text-desc">
                         <div className="">
                             <div className="relative skew-x-6">
-                                <h1 className='text-5xl font-[800] relative z-10'>DEX/SWAP</h1>
+                                <SkewDelay>
+                                    <h1 className='text-5xl font-[800] relative z-10'>DEX/SWAP</h1>
+                                </SkewDelay>
                                 <h1 className='text-5xl font-[800] absolute top-4 lg:left-4 opacity-20 stroke left-0 right-0 mx-auto lg:mx-0'>DEX/SWAP</h1>
                             </div>
                         </div>
@@ -162,13 +174,15 @@ export const EcoList = [
                 <div className="w-full flex flex-col gap-y-7 max-w-[50rem] 2xl:max-w-[55rem] text-base text-desc">
                     <div className="">
                         <div className="relative skew-x-6">
-                            <h1 className='text-5xl font-[800] relative z-10'>FaaS</h1>
+                            <SkewDelay>
+                                <h1 className='text-5xl font-[800] relative z-10'>FaaS</h1>
+                            </SkewDelay>
                             <h1 className='text-5xl font-[800] absolute top-4 lg:left-4 opacity-20 stroke left-0 right-0 mx-auto lg:mx-0'>FaaS</h1>
                         </div>
                     </div>
                     <p className="">
                         <span className="text-white font-semibold">
-                        Earn Protocol FaaS Investing wallet is a decentralized finance protocol that allows users to save, lend, borrow and trade assets within the Earn Protocol ecosystem. 
+                            Earn Protocol FaaS Investing wallet is a decentralized finance protocol that allows users to save, lend, borrow and trade assets within the Earn Protocol ecosystem.
                         </span>
                         The wallet accumulates funds from various sources such as yield farming, buyback and burn of native tokens, contract trading fees and more. These funds are then pooled together in one pot and can be used to purchase additional assets that generate yields or capital gains for its holders. The wallet also serves as a liquidity provider in the form of lending or borrowing for traders looking to leverage their positions.Because the Earn Protocol is a fully decentralized platform with no central authority governing it, users remain in complete control of how their strategy is built and performed, but earn profits through economies of scale. Through collective buying power, users get rewarded for staking larger amounts of BNB along with other tokens within the Earn Protocol ecosystem.
                     </p>
