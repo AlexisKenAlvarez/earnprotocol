@@ -9,10 +9,6 @@ const Nav = () => {
 
     const navList = [
         {
-            label: 'intro',
-            slug: ''
-        },
-        {
             label: 'about',
             slug: 'about'
         },
